@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/luffyzc/nativescript-wechat-login.git"
+		"url": "https://github.com/luffyzc/nativescript-plugin-test.git"
 	},
 	"scripts": {
 		"tsc": "npm i && tsc",
@@ -24,7 +24,7 @@
 		"demo.ios": "npm i && cd ../demo && tns run ios",
 		"demo.android": "npm i && cd ../demo && tns run android",
 		"demo.reset": "cd ../demo && npx rimraf -- hooks node_modules platforms package-lock.json",
-		"plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-wechat-login && tns plugin add ../src",
+		"plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-plugin-test && tns plugin add ../src",
 		"clean": "npm run demo.reset && npx rimraf -- node_modules package-lock.json && npm i"
 	},
 	"keywords": [
@@ -38,10 +38,10 @@
 		"email": "youremail@yourdomain.com"
 	},
 	"bugs": {
-		"url": "https://github.com/luffyzc/nativescript-wechat-login/issues"
+		"url": "https://github.com/luffyzc/nativescript-plugin-test/issues"
 	},
 	"license": "Apache-2.0",
-	"homepage": "https://github.com/luffyzc/nativescript-wechat-login",
+	"homepage": "https://github.com/luffyzc/nativescript-plugin-test",
 	"devDependencies": {
 		"tns-core-modules": "^6.0.0",
 		"tns-platform-declarations": "^6.0.0",
